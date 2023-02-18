@@ -22,11 +22,11 @@ public class RingPayTestScripts {
 		ringPayBusiness = new com.business.RingPay.RingPayBusinessLogic("ring");
 	}
 	
-//	@Test
-//	public void simFlow() throws Exception {
-//		ringPayBusiness.simFlow();
-//	}
-//	
+	@Test
+	public void simFlow() throws Exception {
+		ringPayBusiness.simFlow();
+	}
+	
 	
 //	
 //	@Test
