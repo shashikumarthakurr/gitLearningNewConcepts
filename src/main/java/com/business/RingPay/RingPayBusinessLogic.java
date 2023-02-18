@@ -2814,8 +2814,7 @@ public class RingPayBusinessLogic extends Utilities {
 			
 		}
 		
-		
-		
+	public void sita() {}
 }
 
 
