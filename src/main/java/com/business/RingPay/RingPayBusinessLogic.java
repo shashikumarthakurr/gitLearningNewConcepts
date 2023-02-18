@@ -2783,6 +2783,11 @@ public class RingPayBusinessLogic extends Utilities {
 			String pin=(String) mockUserDetails.get("pin");
 			
 			/*------------------------------Front End----------------------------*/
+
+			
+			
+			
+			
 			cameraPermission();
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
