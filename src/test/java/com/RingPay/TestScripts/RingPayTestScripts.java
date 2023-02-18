@@ -22,19 +22,19 @@ public class RingPayTestScripts {
 		ringPayBusiness = new com.business.RingPay.RingPayBusinessLogic("ring");
 	}
 	
-//	@Test
-//	public void simFlow() throws Exception {
-//		ringPayBusiness.simFlow();
-//	}
-//	
+	@Test
+	public void simFlow() throws Exception {
+		ringPayBusiness.simFlow();
+	}
 	
-//	
-//	@Test
-//	@Parameters({"baseURLMockUser","gender","encrypted_name","portalEmail","portalPassword","portalOTP"})
-//	public void WebRingApp(String url,String gender,String encrypted_name,String portalEmail,String portalPassword,String portalOTP) throws Exception {
-//		ringPayBusiness.kycSkipped(url,gender,encrypted_name,portalEmail,portalPassword,portalOTP);
-//		//ExtentReporter.jiraID = "PP-28";
-//	}
+	
+	
+	@Test
+	@Parameters({"baseURLMockUser","gender","encrypted_name","portalEmail","portalPassword","portalOTP"})
+	public void WebRingApp1(String url,String gender,String encrypted_name,String portalEmail,String portalPassword,String portalOTP) throws Exception {
+		ringPayBusiness.kycSkipped(url,gender,encrypted_name,portalEmail,portalPassword,portalOTP);
+		//ExtentReporter.jiraID = "PP-28";
+	}
 
 
 	@Test
@@ -43,12 +43,7 @@ public class RingPayTestScripts {
 		ringPayBusiness.panValidatation(url,gender,encrypted_name,portalEmail,portalPassword,portalOTP);
 	}
 	
-//	
-//	@Test
-//	public void transectionFlow() throws Exception {
-//		ringPayBusiness.transectionFlow();
-//	}
-	
+
 	/*
 	@Test(priority = 0)
 	@Parameters({"Valid_MobileNumber","EditValid_MobileNumber","LessThanTenDigits_MobileNumber","MoreThanTenDigits_MobileNumber","SpecialCharacters_MobileNumber","Space_MobileNumber","LessThanSixDigitOTP","InvalidOTP"})
