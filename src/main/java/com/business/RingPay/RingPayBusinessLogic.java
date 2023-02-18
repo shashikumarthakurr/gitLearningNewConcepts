@@ -2784,15 +2784,15 @@ public class RingPayBusinessLogic extends Utilities {
 			
 			/*------------------------------Front End----------------------------*/
 
+			
+			
+			
+			
 			cameraPermission();
-
-			type(null, pin, pin);
-
-			getText(null);
-
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
 			loginMobile();
+			User_Play_Store_Flow(date, roomno, address1, address2, landmark, pin, otp, otp);
 			mobileNoValidation1(mobileNumber);
 			enterOtp(otp);
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
