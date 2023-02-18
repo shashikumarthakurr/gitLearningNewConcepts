@@ -2785,6 +2785,7 @@ public class RingPayBusinessLogic extends Utilities {
 			/*------------------------------Front End----------------------------*/
 
 			cameraPermission();
+			getText(null);
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
 			loginMobile();
