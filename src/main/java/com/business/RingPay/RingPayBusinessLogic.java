@@ -2814,6 +2814,11 @@ public class RingPayBusinessLogic extends Utilities {
 			
 		}
 		
+		public void ram(String b) {
+			
+		}
+		
+		
 		
 		
 }
