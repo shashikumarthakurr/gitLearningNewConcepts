@@ -2787,8 +2787,6 @@ public class RingPayBusinessLogic extends Utilities {
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
 			loginMobile();
-			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
-			User_Play_Store_Flow(date, roomno, address1, address2, landmark, pin, otp, otp);
 			mobileNoValidation1(mobileNumber);
 			enterOtp(otp);
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
