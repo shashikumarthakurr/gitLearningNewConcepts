@@ -151,12 +151,10 @@ public class RingPayBusinessLogic extends Utilities {
 		extent.HeaderChildNode("User Play store Flow Module");
 
 		cameraPermission();
-		extent.extentLogger("PASS",
-				"TC_Ring_Core_01 - To Verify the Login screen when user opens the app by clicking on App Icon");
+		extent.extentLogger("PASS","TC_Ring_Core_01 - To Verify the Login screen when user opens the app by clicking on App Icon");
 
 		enablePermissions();
-		extent.extentLoggerPass("TC_Ring_Core_02",
-				"TC_Ring_Core_02 - To verify When User selects Enable Permission option");
+		extent.extentLoggerPass("TC_Ring_Core_02","TC_Ring_Core_02 - To verify When User selects Enable Permission option");
 
 		promoCodeModule();
 		extent.extentLoggerPass("TC_Ring_Core_66", "TC_Ring_Core_66 - To verify  user Scans the Promo Code QR");
@@ -2813,9 +2811,7 @@ public class RingPayBusinessLogic extends Utilities {
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
 			waitTime(30000);
-			if (verifyElementPresent(AddAddressPage.objAddCurrentAddressHeader, "address Page")) {
-				addAddress(roomno,address1,address2,landmark,pin);
-			}
+			
 		}
 		
 		
