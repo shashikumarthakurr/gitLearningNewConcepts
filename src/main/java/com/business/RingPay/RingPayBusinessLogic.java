@@ -2789,7 +2789,7 @@ public class RingPayBusinessLogic extends Utilities {
 			
 			
 			
-			
+			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
 			userDetails();
 			cameraPermission();
 			enablePermissions();
