@@ -2784,6 +2784,7 @@ public class RingPayBusinessLogic extends Utilities {
 			String pin=(String) mockUserDetails.get("pin");
 			
 			/*------------------------------Front End----------------------------*/
+			userDetails();
 			addAddress(roomno, address1, address2, landmark, pin); 
 			cameraPermission();
 			enablePermissions();
@@ -2812,11 +2813,8 @@ public class RingPayBusinessLogic extends Utilities {
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
 			waitTime(30000);
-<<<<<<< HEAD
 			waitTime(100);
-=======
 			waitTime(200);
->>>>>>> 16330af648248ae2f3ece68ce6b02c513002ab1b
 			
 		}
 		
