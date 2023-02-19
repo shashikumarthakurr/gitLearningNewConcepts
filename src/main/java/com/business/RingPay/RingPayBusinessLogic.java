@@ -2812,6 +2812,7 @@ public class RingPayBusinessLogic extends Utilities {
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
 			waitTime(30000);
+			waitTime(200);
 			
 		}
 		
