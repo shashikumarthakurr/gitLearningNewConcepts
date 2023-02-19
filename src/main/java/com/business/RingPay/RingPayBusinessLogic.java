@@ -2784,7 +2784,9 @@ public class RingPayBusinessLogic extends Utilities {
 			String pin=(String) mockUserDetails.get("pin");
 			
 			/*------------------------------Front End----------------------------*/
+			Aclick(null, date);
 			User_Play_Store_Flow(date, roomno, address1, address2, landmark, pin, otp, otp);
+			Aclick(null, date);
 			userDetails();
 			Back(2);
 			cameraPermission();
