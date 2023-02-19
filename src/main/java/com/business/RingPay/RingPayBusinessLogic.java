@@ -2784,6 +2784,7 @@ public class RingPayBusinessLogic extends Utilities {
 			String pin=(String) mockUserDetails.get("pin");
 			
 			/*------------------------------Front End----------------------------*/
+			//shashi
 			cameraPermission();
 			User_Play_Store_Flow(date, roomno, address1, address2, landmark, pin, otp, otp);
 			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
