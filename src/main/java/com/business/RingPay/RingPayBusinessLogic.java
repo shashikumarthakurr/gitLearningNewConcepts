@@ -2785,6 +2785,7 @@ public class RingPayBusinessLogic extends Utilities {
 			
 			/*------------------------------Front End----------------------------*/
 			setPlatform("");
+			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
 			userDetails();
 			addAddress(roomno, address1, address2, landmark, pin); 
 			cameraPermission();
