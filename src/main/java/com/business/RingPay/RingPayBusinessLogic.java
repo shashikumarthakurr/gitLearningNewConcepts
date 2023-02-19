@@ -2784,9 +2784,7 @@ public class RingPayBusinessLogic extends Utilities {
 			String pin=(String) mockUserDetails.get("pin");
 			
 			/*------------------------------Front End----------------------------*/
-			simFlow();
-			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
-			userDetails();
+			addAddress(roomno, address1, address2, landmark, pin);
 			cameraPermission();
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
