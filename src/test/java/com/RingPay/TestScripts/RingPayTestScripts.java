@@ -28,10 +28,7 @@ public class RingPayTestScripts {
 	}
 	
 	
-<<<<<<< HEAD
-=======
-	
->>>>>>> branch 'master' of https://github.com/shashikumarthakurr/gitLearningNewConcepts.git
+
 	@Test
 	@Parameters({"baseURLMockUser","gender","encrypted_name","portalEmail","portalPassword","portalOTP"})
 	public void WebRingApp1(String url,String gender,String encrypted_name,String portalEmail,String portalPassword,String portalOTP) throws Exception {
