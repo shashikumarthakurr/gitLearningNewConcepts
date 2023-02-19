@@ -2658,7 +2658,7 @@ public class RingPayBusinessLogic extends Utilities {
 			}
 			
 		}
-		
+		public void laxman() {}
 		public HashMap mockUserAPI(String url, String gender, String encrypted_name) {
 			HashMap map=new HashMap();
 		ValidatableResponse response = Utilities.MockuserAPI(url, gender, encrypted_name);
@@ -2728,7 +2728,7 @@ public class RingPayBusinessLogic extends Utilities {
 		return map;
 		}
 		
-		
+		public void sita() {}
 
 		public void simFlow() throws Exception {
 			
@@ -2754,7 +2754,8 @@ public class RingPayBusinessLogic extends Utilities {
 				
 			
 		}
-		
+		public void ram() {}
+		public void ramavan() {}
 		public void panValidatation(String url, String gender, String encrypted_name,String portalEmail,String portalPassword,String portalOTP) throws Exception {
 			
 			extent.HeaderChildNode("Banner logic on Home screen");
@@ -2787,8 +2788,6 @@ public class RingPayBusinessLogic extends Utilities {
 			enablePermissions();
 			Aclick(RingLoginPage.objLoginLink, "Signup/Login link");
 			loginMobile();
-			addAddress(roomno, address1, address2, landmark, pin);
-			kycSkipped(url, genders, encrypted_name, portalEmail, portalPassword, portalOTP);
 			mobileNoValidation1(mobileNumber);
 			enterOtp(otp);
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
