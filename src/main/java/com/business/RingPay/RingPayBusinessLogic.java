@@ -2822,12 +2822,6 @@ public class RingPayBusinessLogic extends Utilities {
 			userDetailsFromAPI(userName, userLastName, userName+userLastName+new Random().nextInt(10000)+"@example.com", userMotherName, userGender);
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
-			System.out.println("Shashi Commit 1");
-			System.out.println("Shashi Commit 2");
-			System.out.println("Shashi Commit 3");
-
-			System.out.println("Swagatika Commit 1");
-			System.out.println("Shashi Commt 2");
 
 		}
 }
