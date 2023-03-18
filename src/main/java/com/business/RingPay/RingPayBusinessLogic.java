@@ -2801,6 +2801,7 @@ public class RingPayBusinessLogic extends Utilities {
 			loginMobile();
 			mobileNoValidation1(mobileNumber);
 			enterOtp(otp);
+			System.out.println("Shashi Change 2804");
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
 			Aclick(MobileLoginPage.btnReadAndAccept, "Read adn Accept");
 			explicitWaitVisibility(PermissionPage.btnAllow, 20);
