@@ -2804,7 +2804,7 @@ public class RingPayBusinessLogic extends Utilities {
 			System.out.println("Shashi Change 2804");
 			System.out.println("Swagatika Change 2804");
 			System.out.println("Swagatika Change 2805");
-
+			System.out.println("Swagatika Change 2807");
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
 			Aclick(MobileLoginPage.btnReadAndAccept, "Read adn Accept");
 			explicitWaitVisibility(PermissionPage.btnAllow, 20);
