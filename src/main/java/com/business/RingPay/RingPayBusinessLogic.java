@@ -2728,7 +2728,7 @@ public class RingPayBusinessLogic extends Utilities {
 		return map;
 		}
 		
-		public void sita() {}
+
 
 		public void simFlow() throws Exception {
 			
@@ -2754,8 +2754,7 @@ public class RingPayBusinessLogic extends Utilities {
 				
 			
 		}
-		public void ram() {}
-		public void ramavan() {}
+	
 		public void panValidatation(String url, String gender, String encrypted_name,String portalEmail,String portalPassword,String portalOTP) throws Exception {
 			
 			extent.HeaderChildNode("Banner logic on Home screen");
@@ -2811,6 +2810,7 @@ public class RingPayBusinessLogic extends Utilities {
 			explicitWaitVisibility(PermissionPage.btnAllow, 20);
 			Aclick(PermissionPage.btnAllow, "Allow SMS");
 			waitTime(20000);
+			System.out.println("Shashi Edit 1");
 			explicitWaitVisibility(UserRegistrationPage.objUserDetailsHeader, 30);
 			String userName=files.getproperty("userName");
 			String userLastName=files.getproperty("lastName");
