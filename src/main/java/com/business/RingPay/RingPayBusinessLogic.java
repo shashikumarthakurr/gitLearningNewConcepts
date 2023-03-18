@@ -2822,11 +2822,7 @@ public class RingPayBusinessLogic extends Utilities {
 			userDetailsFromAPI(userName, userLastName, userName+userLastName+new Random().nextInt(10000)+"@example.com", userMotherName, userGender);
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
-			waitTime(30000);
-			waitTime(100);
-			waitTime(200);
-			System.out.println("Swagatika Commit 1");
-			
+			System.out.println("Shashi Commit 1");
 		}
 }
 
