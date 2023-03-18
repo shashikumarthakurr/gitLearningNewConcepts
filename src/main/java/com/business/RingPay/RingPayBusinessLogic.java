@@ -2811,9 +2811,30 @@ public class RingPayBusinessLogic extends Utilities {
 			Aclick(PermissionPage.btnAllow, "Allow SMS");
 			waitTime(20000);
 			System.out.println("Shashi Edit 1");
+
 			System.out.println("Swagatika edit 1");
 			System.out.println("Swagatika edit 2");
 			System.out.println("Swagatika edit 3");
+
+			System.out.println("Swagatika edit 4");
+			System.out.println("Swagatika edit 5");
+			System.out.println("Swagatika edit 6");
+			
+
+			System.out.println("Swagatika edit 7");
+			System.out.println("Swagatika edit 8");
+			System.out.println("Swagatika edit 9");
+
+			System.out.println("Shashi Edit 2");
+			System.out.println("Shashi Edit 3");
+			System.out.println("Shashi Edit 4");
+			System.out.println("Shashi Edit 5");
+			System.out.println("Shashi Edit 6");
+			System.out.println("Shashi Edit 7");
+			System.out.println("Shashi Edit 8");
+			System.out.println("Shashi Edit 9");
+			
+
 			explicitWaitVisibility(UserRegistrationPage.objUserDetailsHeader, 30);
 			String userName=files.getproperty("userName");
 			String userLastName=files.getproperty("lastName");
