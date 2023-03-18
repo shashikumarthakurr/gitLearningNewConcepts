@@ -2824,6 +2824,7 @@ public class RingPayBusinessLogic extends Utilities {
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
 			System.out.println("Shashi Commit 1");
 			System.out.println("Shashi Commit 2");
+			System.out.println("Swagatika Commit 1");
 		}
 }
 
