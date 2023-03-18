@@ -18,6 +18,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.Set;
 
+import org.apache.axis.message.SAXOutputter;
 import org.json.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
@@ -2803,6 +2804,7 @@ public class RingPayBusinessLogic extends Utilities {
 			enterOtp(otp);
 			System.out.println("Sagatika 1st ");
 			System.out.println("Shashi 1st");
+			System.out.println("Shashi 2nd");
 			explicitWaitVisibility(MobileLoginPage.btnReadAndAccept, 10);
 			Aclick(MobileLoginPage.btnReadAndAccept, "Read adn Accept");
 			explicitWaitVisibility(PermissionPage.btnAllow, 20);
