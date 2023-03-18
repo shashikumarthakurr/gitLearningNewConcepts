@@ -2822,6 +2822,7 @@ public class RingPayBusinessLogic extends Utilities {
 			userDetailsFromAPI(userName, userLastName, userName+userLastName+new Random().nextInt(10000)+"@example.com", userMotherName, userGender);
 			dateOfBirthForAPI(userBirthMonth, userBirthDate, userBirthYear);
 			Aclick(UserRegistrationPage.objRegister, "Proceed Button");
+			System.out.println("Shashi Try Push 1");
 		}
 }
 
