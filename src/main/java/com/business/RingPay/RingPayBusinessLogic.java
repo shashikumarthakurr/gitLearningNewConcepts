@@ -2825,6 +2825,7 @@ public class RingPayBusinessLogic extends Utilities {
 			waitTime(30000);
 			waitTime(100);
 			waitTime(200);
+			System.out.println("Swagatika Commit 1");
 			
 		}
 }
